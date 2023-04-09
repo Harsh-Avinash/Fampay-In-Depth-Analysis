@@ -1,0 +1,14 @@
+url,score,first_contentful_paint,speed_index,largest_contentful_paint,interactive,total_blocking_time,cumulative_layout_shift
+https://fampay.in/press,96.0,0.3 s,0.6 s,1.5 s,0.9 s,10 ms,0
+https://fampay.in/blog,94.0,0.4 s,1.1 s,1.6 s,0.4 s,0 ms,0
+https://fampay.in/,77.0,0.3 s,0.9 s,4.9 s,1.0 s,10 ms,0
+https://fampay.in/blog/,96.0,0.3 s,1.1 s,1.3 s,0.3 s,0 ms,0
+https://fampay.in/contact,97.0,0.3 s,0.8 s,1.3 s,1.0 s,10 ms,0
+https://famcard.me,96.0,0.3 s,1.3 s,1.0 s,0.8 s,20 ms,0.084
+https://fampay.in/parent,80.0,0.3 s,1.2 s,3.5 s,2.3 s,10 ms,0
+https://fampay.in/terms,95.0,0.4 s,1.0 s,1.4 s,0.9 s,40 ms,0.034
+https://fampay.in/about,78.0,0.3 s,1.1 s,4.2 s,1.2 s,60 ms,0
+https://fampay.in/partner,86.0,0.3 s,1.4 s,2.4 s,1.2 s,20 ms,0
+https://fampay.in/privacy,89.0,0.3 s,0.9 s,1.3 s,0.9 s,10 ms,0.179
+https://fampay.in/careers,93.0,0.3 s,0.8 s,1.8 s,1.1 s,10 ms,0
+https://fampay.in/friends,95.0,0.3 s,0.9 s,1.5 s,1.0 s,20 ms,0
