@@ -1,0 +1,101 @@
+ngram,word_count,review_id,thumbs_up_count
+app,40.17196387366552,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+is,25.65405764611479,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+I,20.603751580888293,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+to,18.378359921149297,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+and,17.43212522605225,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+for,17.133348830306826,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+the,15.55213221282335,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+this,14.43648145156736,7a6263a3-2b8b-4446-975a-5ed5de026268,564
+my,13.668855942498348,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+not,13.488276802212653,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+this app,6.177776552028463,7a6263a3-2b8b-4446-975a-5ed5de026268,564
+app for,5.7653994607578545,7a6263a3-2b8b-4446-975a-5ed5de026268,564
+is not,4.2767706933845,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+app is,4.039062879626602,7ba080f0-271f-47de-923e-3e3cc1771113,916
+nice app,3.241231405273436,6f9fd92b-8168-4756-81e1-446b996d2c5a,98
+good app,3.2175919541814904,e59ec378-f0a6-4e0c-9fbd-971929e65a2b,104
+for teenagers,3.074441944791375,7ba080f0-271f-47de-923e-3e3cc1771113,916
+I am,3.046862585184105,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+is very,3.0035235915155387,77e15adc-aeff-4d1a-ba45-9cd284af0180,350
+very good,2.692927470224141,77e15adc-aeff-4d1a-ba45-9cd284af0180,350
+This app is,1.6856241931395688,7ba080f0-271f-47de-923e-3e3cc1771113,916
+app for teenagers,1.6422851994710017,7a6263a3-2b8b-4446-975a-5ed5de026268,564
+is not working,1.0237195625650906,74054dcf-1930-4436-9778-c70807de36c1,5
+this app is,0.9784106146388614,7a6263a3-2b8b-4446-975a-5ed5de026268,564
+very good app,0.9429514380009429,e59ec378-f0a6-4e0c-9fbd-971929e65a2b,104
+app is very,0.9153720783936731,b9020f03-73bc-4a27-99b9-a84744087f1f,14
+not able to,0.8168743655105661,7413232b-533f-4399-b11d-a95504d7a22f,295
+good app for,0.7617156462960263,094184a2-5b90-414c-9c5a-5f143a659bcc,31
+best app for,0.7610589948768056,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+Best app for,0.7485826179116121,3ed0a1e9-2d24-4f78-a541-2866313a99d3,314
+This app is very,0.48986195873865146,b9020f03-73bc-4a27-99b9-a84744087f1f,14
+am not able to,0.4189436054628145,fb7d17eb-9f31-4c75-acc6-08fac81c6fa2,2
+I am not able,0.3348922238025633,fb7d17eb-9f31-4c75-acc6-08fac81c6fa2,2
+very good app for,0.2685704304612714,094184a2-5b90-414c-9c5a-5f143a659bcc,31
+app is very good,0.2528107963999742,8042fba8-7b8b-4ccc-a86d-185ce87b81ff,2
+this app is very,0.24230437369244287,ad9af17a-1b28-4521-9ba2-8a42d09f3eba,6
+I love this app,0.24230437369244287,57d8523c-ef06-442d-9460-9e5c47154d99,255
+best app for teenagers,0.23573785950023574,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+Best app for teenagers,0.22654473963114577,eeb3f50c-7cb9-428d-913c-a60836cd07dd,24
+good app for teenagers,0.22523143679270433,094184a2-5b90-414c-9c5a-5f143a659bcc,31
+I am not able to,0.31716263548360407,fb7d17eb-9f31-4c75-acc6-08fac81c6fa2,2
+This app is very good,0.1267337239095975,e8553a36-64b2-4a3d-8d0c-f842492fb124,2
+is the best app for,0.10834748417141754,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+i am not able to,0.08470803307947189,c1ef5cd0-0693-4487-887f-513cd4c2c6f0,1
+very good app for teenagers,0.08208142740258904,094184a2-5b90-414c-9c5a-5f143a659bcc,31
+is a very good app,0.07485826179116122,4d3758a8-b421-416d-820e-50a73e907a40,7
+This app is good but,0.06697844476051266,c5601d33-f6f4-486f-b551-6ad5cdebbe2d,1
+this app is very good,0.06566514192207124,8042fba8-7b8b-4ccc-a86d-185ce87b81ff,2
+This is the best app,0.0636951876644091,74faa10e-6404-492e-bfa8-e306f35c55ee,7
+a very good app for,0.0636951876644091,6ac64601-f717-4ada-898e-6062ce7d6f2b,7
+This is the best app for,0.04005573657246345,d2763a67-bdc9-400e-9dff-19478c668a85,6
+is the best app for teenagers,0.03874243373402203,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+is a very good app for,0.03283257096103562,091921ab-152a-4f0f-aa97-d77fa05aa340,4
+This is a very good app,0.031519268122594195,091921ab-152a-4f0f-aa97-d77fa05aa340,4
+I am not able to do,0.02757935960726992,,0
+This app is very useful for,0.02757935960726992,2cbbe105-b0ab-40aa-959c-0a432c2571e7,13
+this is the best app for,0.025609405349607782,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+This app is very good for,0.023639451091945644,a624c987-3662-4bf6-a89f-08e04a66da34,1
+I am not able to see,0.022982799672724933,,0
+I am not able to pay,0.021669496834283507,,0
+I am not able to see my,0.018386239738179946,,0
+This is a very good app for,0.01378967980363496,091921ab-152a-4f0f-aa97-d77fa05aa340,4
+This is the best app for teenagers,0.012476376965193534,d2763a67-bdc9-400e-9dff-19478c668a85,6
+This app is very useful for teenagers,0.011819725545972822,2cbbe105-b0ab-40aa-959c-0a432c2571e7,13
+I have been using this app for,0.010506422707531398,,0
+this is the best app for teenagers,0.009849771288310685,4c88590d-51fa-4b86-aa59-8164e41d45a2,162
+am not able to see my card,0.009193119869089973,,0
+is one of the best app for,0.009193119869089973,ebffa39b-470a-4bc0-a3b2-6b5c83dbff14,3
+I am not able to send money,0.00853646844986926,,0
+for teenagers so I would highly recommend,0.00853646844986926,,0
+are currently building the fam experience for your,0.007223165611427836,,0
+I am not able to see my card,0.007223165611427836,,0
+for teenagers so I would highly recommend this,0.007223165611427836,,0
+we are currently building the fam experience for,0.006566514192207123,,0
+debit card app which is specially made for,0.006566514192207123,,0
+app in my phone which is specially made,0.005909862772986411,,0
+in my phone which is specially made for,0.005909862772986411,,0
+so I would highly recommend this app to,0.005253211353765699,,0
+my phone which is specially made for teenagers,0.005253211353765699,,0
+app I have ever seen in my life,0.004596559934544987,,0
+we are currently building the fam experience for your,0.005909862772986411,,0
+app in my phone which is specially made for,0.005909862772986411,,0
+in my phone which is specially made for teenagers,0.005253211353765699,,0
+"is the best debit card for teenagers, lovely tool",0.004596559934544987,,0
+are currently building the fam experience for your location,0.003939908515324274,,0
+apps available in play store but this FamPay app,0.003939908515324274,,0
+available in play store but this FamPay app is,0.003939908515324274,,0
+in play store but this FamPay app is really,0.003939908515324274,,0
+the best debit card for teenagers who do well.,0.003939908515324274,,0
+so I would highly recommend this card to everyone.,0.003939908515324274,,0
+app in my phone which is specially made for teenagers,0.005253211353765699,,0
+we are currently building the fam experience for your location,0.003939908515324274,,0
+apps available in play store but this FamPay app is,0.003939908515324274,,0
+available in play store but this FamPay app is really,0.003939908515324274,,0
+app in market which is the best debit card for,0.003939908515324274,,0
+"in market which is the best debit card for teenagers,",0.003939908515324274,,0
+"market which is the best debit card for teenagers, lovely",0.003939908515324274,,0
+"which is the best debit card for teenagers, lovely tool",0.003939908515324274,,0
+send money to an UPI address and it gives error,0.0032832570961035617,d109a316-96cc-404a-b93d-a11fbac105c8,2273
+money to an UPI address and it gives error saying,0.0032832570961035617,d109a316-96cc-404a-b93d-a11fbac105c8,2273

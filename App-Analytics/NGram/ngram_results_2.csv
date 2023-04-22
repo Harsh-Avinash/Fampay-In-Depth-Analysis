@@ -1,0 +1,101 @@
+ngram,word_count,review_id,thumbs_up_count
+app,40.17196387366552,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+is,25.65405764611479,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+I,20.603751580888293,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+to,18.378359921149297,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+and,17.43212522605225,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+for,17.133348830306826,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+the,15.55213221282335,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+this,14.43648145156736,7eaf43cd-d49f-4a47-8290-269e7f51acbb,3839
+my,13.668855942498348,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+not,13.488276802212653,3fc5411b-ce5f-4e13-8fce-4eaf5ae6f4a2,5787
+this app,6.177776552028463,7eaf43cd-d49f-4a47-8290-269e7f51acbb,3839
+app for,5.7653994607578545,65c7f558-76b0-4fc7-9a1f-629dc64fe6d6,151
+is not,4.2767706933845,23af139e-d562-4fa0-af66-9e0736750332,2165
+app is,4.039062879626602,9267aec1-af19-486b-b547-1308d12b38f3,133
+nice app,3.241231405273436,4acfae7c-1d9b-425f-a036-2bf78d68c3a9,4
+good app,3.2175919541814904,55284379-f1e5-4d04-99c7-33b7a8ff7cf6,367
+for teenagers,3.074441944791375,c9a61bee-0062-4234-93c2-1a0d4ad2a72b,78
+I am,3.046862585184105,7eaf43cd-d49f-4a47-8290-269e7f51acbb,3839
+is very,3.0035235915155387,d989d266-f671-4a5b-91cd-f9c1c9c8030c,368
+very good,2.692927470224141,6fa377ef-3da3-46ca-8c65-7ed93d0700b6,45
+This app is,1.6856241931395688,70545606-c90b-45b6-987e-acf04b5e2d58,11
+app for teenagers,1.6422851994710017,c9a61bee-0062-4234-93c2-1a0d4ad2a72b,78
+is not working,1.0237195625650906,23af139e-d562-4fa0-af66-9e0736750332,2165
+this app is,0.9784106146388614,b66ed813-b036-4ba2-ac67-26785b211d08,9
+very good app,0.9429514380009429,be5d4db2-ae34-4b12-80ce-5522022cb464,27
+app is very,0.9153720783936731,70545606-c90b-45b6-987e-acf04b5e2d58,11
+not able to,0.8168743655105661,94ba5d35-b75a-43ae-b0b3-fcf7c2ef0339,292
+good app for,0.7617156462960263,65c7f558-76b0-4fc7-9a1f-629dc64fe6d6,151
+best app for,0.7610589948768056,8c4cae7c-e5da-4621-bdc8-46ac91fddff7,4
+Best app for,0.7485826179116121,,0
+This app is very,0.48986195873865146,70545606-c90b-45b6-987e-acf04b5e2d58,11
+am not able to,0.4189436054628145,102eca60-3061-4ae1-8e0b-e3419f062bc9,52
+I am not able,0.3348922238025633,102eca60-3061-4ae1-8e0b-e3419f062bc9,52
+very good app for,0.2685704304612714,be5d4db2-ae34-4b12-80ce-5522022cb464,27
+app is very good,0.2528107963999742,70545606-c90b-45b6-987e-acf04b5e2d58,11
+this app is very,0.24230437369244287,aed4529d-24ea-419a-94b0-9bbb728e7692,1
+I love this app,0.24230437369244287,c3250d23-725a-4df9-a033-04a35d2251b2,50
+best app for teenagers,0.23573785950023574,,0
+Best app for teenagers,0.22654473963114577,,0
+good app for teenagers,0.22523143679270433,fe36e012-34d8-4c50-81a6-062386a9c488,27
+I am not able to,0.31716263548360407,102eca60-3061-4ae1-8e0b-e3419f062bc9,52
+This app is very good,0.1267337239095975,70545606-c90b-45b6-987e-acf04b5e2d58,11
+is the best app for,0.10834748417141754,,0
+i am not able to,0.08470803307947189,7f85c765-6d5b-4a48-9ad9-f168ec8f8d8b,2
+very good app for teenagers,0.08208142740258904,,0
+is a very good app,0.07485826179116122,,0
+This app is good but,0.06697844476051266,5ee2780e-5324-4890-9472-3db0aaba4826,1
+this app is very good,0.06566514192207124,aed4529d-24ea-419a-94b0-9bbb728e7692,1
+This is the best app,0.0636951876644091,aed6e75c-1818-46a9-8337-f6275f22d4a3,2
+a very good app for,0.0636951876644091,,0
+This is the best app for,0.04005573657246345,,0
+is the best app for teenagers,0.03874243373402203,,0
+is a very good app for,0.03283257096103562,,0
+This is a very good app,0.031519268122594195,,0
+I am not able to do,0.02757935960726992,,0
+This app is very useful for,0.02757935960726992,,0
+this is the best app for,0.025609405349607782,,0
+This app is very good for,0.023639451091945644,,0
+I am not able to see,0.022982799672724933,,0
+I am not able to pay,0.021669496834283507,,0
+I am not able to see my,0.018386239738179946,,0
+This is a very good app for,0.01378967980363496,,0
+This is the best app for teenagers,0.012476376965193534,,0
+This app is very useful for teenagers,0.011819725545972822,,0
+I have been using this app for,0.010506422707531398,,0
+this is the best app for teenagers,0.009849771288310685,,0
+am not able to see my card,0.009193119869089973,,0
+is one of the best app for,0.009193119869089973,,0
+I am not able to send money,0.00853646844986926,,0
+for teenagers so I would highly recommend,0.00853646844986926,,0
+are currently building the fam experience for your,0.007223165611427836,,0
+I am not able to see my card,0.007223165611427836,,0
+for teenagers so I would highly recommend this,0.007223165611427836,,0
+we are currently building the fam experience for,0.006566514192207123,,0
+debit card app which is specially made for,0.006566514192207123,,0
+app in my phone which is specially made,0.005909862772986411,,0
+in my phone which is specially made for,0.005909862772986411,,0
+so I would highly recommend this app to,0.005253211353765699,,0
+my phone which is specially made for teenagers,0.005253211353765699,,0
+app I have ever seen in my life,0.004596559934544987,,0
+we are currently building the fam experience for your,0.005909862772986411,,0
+app in my phone which is specially made for,0.005909862772986411,,0
+in my phone which is specially made for teenagers,0.005253211353765699,,0
+"is the best debit card for teenagers, lovely tool",0.004596559934544987,,0
+are currently building the fam experience for your location,0.003939908515324274,,0
+apps available in play store but this FamPay app,0.003939908515324274,,0
+available in play store but this FamPay app is,0.003939908515324274,,0
+in play store but this FamPay app is really,0.003939908515324274,,0
+the best debit card for teenagers who do well.,0.003939908515324274,,0
+so I would highly recommend this card to everyone.,0.003939908515324274,,0
+app in my phone which is specially made for teenagers,0.005253211353765699,,0
+we are currently building the fam experience for your location,0.003939908515324274,,0
+apps available in play store but this FamPay app is,0.003939908515324274,,0
+available in play store but this FamPay app is really,0.003939908515324274,,0
+app in market which is the best debit card for,0.003939908515324274,,0
+"in market which is the best debit card for teenagers,",0.003939908515324274,,0
+"market which is the best debit card for teenagers, lovely",0.003939908515324274,,0
+"which is the best debit card for teenagers, lovely tool",0.003939908515324274,,0
+send money to an UPI address and it gives error,0.0032832570961035617,,0
+money to an UPI address and it gives error saying,0.0032832570961035617,,0
