@@ -1,13 +1,13 @@
-Cluster 0:nice             4934
-Nice             3799
-Nice app         2126
-nice app         1887
-very nice         689
-Very nice         469
-Very nice app     434
-very nice app     371
-nice aap          165
-Nice aap          144
+Cluster 0:super       1277
+op          1021
+Op           947
+awesome      867
+Super        805
+Best app     719
+Best         681
+best         583
+Awesome      570
+best app     525
 Name: content, dtype: int64
 Cluster 1:good             3931
 Good             3451
@@ -20,14 +20,14 @@ very good app     365
 Good 👍            103
 It's good          75
 Name: content, dtype: int64
-Cluster 2:Best app                  719
-Best                      681
-best                      583
-best app                  525
-Best app for teenagers    181
-best app for teenagers     97
-Best app for teens         87
-Best for teenagers         68
-Best aap                   50
-Best app ever              47
+Cluster 2:nice             4934
+Nice             3799
+Nice app         2126
+nice app         1887
+very nice         689
+Very nice         469
+Very nice app     434
+very nice app     371
+nice aap          165
+Nice aap          144
 Name: content, dtype: int64
