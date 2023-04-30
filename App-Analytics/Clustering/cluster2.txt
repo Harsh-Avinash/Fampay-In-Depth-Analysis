@@ -1,33 +1,33 @@
-Cluster 0:super       1277
-op          1021
-Op           947
-awesome      867
-Super        805
-Best app     719
-Best         681
-best         583
-Awesome      570
-best app     525
+Cluster 0:op                 1181
+op app              195
+op app teenager       3
+op app teen           2
+op op op              1
+op app fampay         1
+op op                 1
+op app h              1
+op op op op           1
+op app nice           1
 Name: content, dtype: int64
-Cluster 1:good             3931
-Good             3451
-Good app         1029
-good app          877
-very good         654
-Very good         554
-Very good app     428
-very good app     365
-Good 👍            103
-It's good          75
+Cluster 1:nice app teenager      179
+nice app teen           62
+nice app child          35
+nice app student        22
+nice app like           19
+nice app payment        16
+nice app kid            16
+nice app love           13
+nice app fampay         10
+nice app teen agers     10
 Name: content, dtype: int64
-Cluster 2:nice             4934
-Nice             3799
-Nice app         2126
-nice app         1887
-very nice         689
-Very nice         469
-Very nice app     434
-very nice app     371
-nice aap          165
-Nice aap          144
+Cluster 2:nice app             3575
+nice app u              2
+nice system app         1
+nice app b              1
+although nice app       1
+must nice app           1
+nice see app            1
+t nice app              1
+nice app show           1
+nice app others         1
 Name: content, dtype: int64
