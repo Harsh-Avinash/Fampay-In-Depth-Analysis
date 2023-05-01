@@ -1,22 +1,34 @@
 # Fampay in Depth Analysis
+
 This repository contains code and information used for creating a report for Fampay. The aim of the report is to impress the company and secure a full-time internship for the summer.
 
 ## Folder Structure
-The repository is structured as follows:
 
-**Competion:** This folder contains the code used to compare Fampay with its competitors. It includes the **notebook comp_compare.ipynb**, which compares Fampay's market share with that of its competitors, and **IndianComp.csv**, which contains data on Indian companies.
 
-**Crawler:** This folder contains the code used to crawl the web and gather data. It includes several notebooks such as **deep_crawler.ipynb**, **deep_crawler_sel.ipynb**, and **main.ipynb**. These notebooks scrape data from different websites using different techniques such as BeautifulSoup and Selenium. The **links.txt** file contains the links of the websites to be crawled.
+This directory structure represents a comprehensive data analysis project for Fampay, a company that offers a mobile payment application. The project is divided into different sections, each focusing on various aspects of the company's performance, competition, and social media presence.
 
-**Information:** This folder contains several files and subfolders that contain information about Fampay, its products, and its team. It includes documents such as **Main.docx**, which contains the main report, and **TeamFampay.xlsx**, which contains information about Fampay's team.
+1. **App-Analytics:** This directory contains subdirectories for different aspects of Fampay's app performance analysis:
+   * Clustering
+   * FampayResponse
+   * LogHunter
+   * NGram
+   * RegressionAnalysis
+   * Sentiment
+   * Social network analysis
+   * TimeSeriesAnalysis
+   * Topic Modeling
+   * UserBehaviour
+   * VersionImpactAnalysis
+2. **Competion:** This directory contains data and analyses on Fampay's competitors. It includes a notebook for app analysis and two subdirectories:
+   * App-Comp: Contains information about Direct_Comp, Fampay, Mainstream_Comp, and Potential_Comp.
+   * Information: Contains comparison notebook and information about Indian companies.
+3. **FampayBot:** This directory contains files related to Fampay's chatbot. It has files for different chatbot models, including BERT, Bloom, DistillBERT, GPT-2, and Longformer.
+4. **Information:** This directory contains general information about Fampay, including documents, data about app versions, product details, and team information.
+5. **Keys:** This directory stores API keys and related files for different services.
+6. **Social-Analytics:** This directory contains analyses of Fampay's presence on various social media platforms, including Discord, Instagram, Twitter, and Youtube.
+7. **Warehouse:** This directory stores web-scraped data, APK files, backups, and links. It has subdirectories for web score data, APKs, backup data, web crawlers, and links.
 
-**Keys:** This folder contains the authentication key Analytical data.
-
-**Performance:** This folder contains the code used to measure the performance of Fampay's website. It includes two subfolders: Code Driven and Community Driven. The former contains code-driven metrics such as **website_metrics.csv**, **mainV1.ipynb**, and **mainV2.ipynb**, while the latter contains community-driven metrics such as analytics.html and main.ipynb.
-
-**Searcher:** This folder contains the code used to search for information related to Fampay. It includes the notebook **main.ipynb**, which searches for information related to Fampay using Google.
-
-**Warehouse:** This folder contains the code used to clean data obtained from different sources. It includes the **notebook cleaner.ipynb**, which cleans data obtained from web crawling, and **deep_crawler_sel_clean.txt**, which contains the cleaned data.
+Each subdirectory within these main directories contains a combination of data files, notebooks, models, and images for the respective analysis.
 
 ## Usage
 
