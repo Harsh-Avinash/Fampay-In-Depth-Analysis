@@ -1,0 +1,27 @@
+---
+import Sidebar from "../components/Sidebar.astro";
+---
+
+<html>
+  <head>
+    <title>My Project</title>
+    <link rel="stylesheet" href="/global.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Project</h1>
+    </header>
+
+    <div class="layout-container">
+      <Sidebar />
+
+      <main>
+        <slot />
+      </main>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>
