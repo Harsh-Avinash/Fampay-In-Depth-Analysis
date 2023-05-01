@@ -1,0 +1,6 @@
+---
+const { href, activeClass = "active", children } = Astro.props;
+const isActive = Astro.request.pathname === href;
+---
+
+<a href={href} class={isActive ? activeClass : ""}><slot>{children}</slot></a>
