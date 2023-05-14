@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+aside {
+  position: fixed; /* This will make the sidebar stick to the left */
+  width: 200px;
+  height: 100vh;
+  overflow: auto;
+  margin: 0; /* This will remove any margin */
+  padding: 0; /* This will remove any padding */
+  background: #f1f1f1;
+}
+
+main {
+  flex-grow: 1;
+  padding: 1em;
+  margin-left: 200px; /* This will push the main content to the right of the sidebar */
+}
