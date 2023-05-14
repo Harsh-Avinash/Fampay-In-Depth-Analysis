@@ -6,14 +6,125 @@ type Props = {
 const { path } = Astro.props;
 ---
 
-<!-- <footer>
-	<AvatarList path={path} />
-</footer>
+<div class="foot" id="contact">
+  <div class="left">
+    <img class="shape" src="/r.svg" alt="shape" />
+  </div>
+  <div class="right">
+    <div class="top">Contact</div>
+    <div class="bottom">
+      <a class="listindex" href="https:harshavinash.in">Website</a>
+      <a class="listindex" href="https://www.instagram.com/harshu_avinash/"
+        >Instagram</a
+      >
+      <a class="listindex" href="https://www.linkedin.com/in/harsh-avinash/"
+        >LinkedIN</a
+      >
+      <a class="listindex" href="https://github.com/Harsh-Avinash">Github</a>
+      <a class="listindex" href="https://twitter.com/TheHarshAvinash">Twitter</a
+      >
+      <a class="listindex" href="mailto: harsh.avinash.official@gmail.com"
+        >Email</a
+      >
+      <a
+        class="listindex"
+        href="https://drive.google.com/file/d/1avAS3wP2TfsZUUEXecvp-pSEoviITIB5/view?usp=sharing"
+        >Resume</a
+      >
+    </div>
+  </div>
+</div>
 
 <style>
-	footer {
-		margin-top: auto;
-		padding: 2rem;
-		border-top: 3px solid var(--theme-divider);
-	}
-</style> -->
+  .foot {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 20px;
+
+    align-self: center;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .left {
+    padding-top: 7px;
+
+    display: flex;
+    /* background-color: lightgreen; */
+    /* justify-content: center; */
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .shape {
+    width: 44px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+
+    gap: 10px;
+  }
+
+  .top {
+    /* font-family: "Urbanist";
+    font-style: normal; */
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 58px;
+    color: var(--theme-text);
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+
+    gap: 30px;
+  }
+
+  .listindex {
+    /* font-family: "Roboto Mono";
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: right;
+
+    color: var(--theme-text-light);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--theme-text-light);
+  }
+
+  @media screen and (max-width: 1200px) {
+    .shape {
+      width: 26px;
+    }
+    .top {
+      /* font-family: "Urbanist";
+      font-style: normal; */
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 26px;
+      color: var(--theme-text);
+    }
+    .bottom {
+      margin-top: 8px;
+
+      flex-direction: column;
+      align-items: baseline;
+      justify-content: left;
+
+      gap: 10px;
+    }
+  }
+</style>

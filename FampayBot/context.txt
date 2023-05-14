@@ -9,4 +9,75 @@ Cashback, FamCoins, discounts, and offers from top brands, along with opportunit
 A numberless card that keeps users' information safe, offering quick and secure Tap & Pay payments, custom doodle designs, and ATM withdrawal options.
 FamX also offers memberships tailored to users' needs, and the support team is available 24/7 for assistance. The platform has received backing from several well-known investors, including Elevation Capital, Sequoia, Venture Highway, General Catalyst, Y Combinator, Global Founders Capital, Rocketship VC, and GreenOaks.
 
-Fam is currently hiring and invites individuals who want to shape finance for the next generation to join their team. The company offers various resources, including FAQs, a blog, and press information. Fam's services are protected by privacy policies and terms and conditions for both FamPay-IDFC and FamX-Trio. They are also active on multiple social media platforms.
+UPI IDs can be customised a maximum of 8 times! While creating your unique UPI ID, please keep the following in mind:
+- The UPI ID can be alphanumeric
+- The UPI ID must contain either your first or last name used in your verification
+- It cannot contain brand names such as 'apple', 'amazon', etc.
+- In case you wish to create a UPI ID that contains a 10-digit number, only your own 10-digit phone number would be allowed
+Here are some things to keep in ming while creating your unique UPI ID:
+- The UPI ID can be alphanumeric
+- The UPI ID must contain either your first or last name used in your verification
+- It cannot contain brand names such as 'apple', 'amazon', etc.
+- In case you wish to create a UPI ID that contains a IO- digit number, only your own 10-digit phone number would be allowed
+
+Adding a back up UPI ID on the app helps us transfer your money to a safe and trusted account in case of any account issues. It is not mandatory! However, we would recommend adding a backup UPI ID so that we can transfer your money to a safe and trusted account in case of any account issues.
+
+You can now use your FamX card to withdraw cash at any ATM! Withdrawals come with the following limits:
+- Only up to QOOO can be withdrawn in one transaction
+- Only up to elO,OOO can be withdrawn in one month
+- Every withdrawal is charged a fee of Q9. FamX Ultra users will be refunded this fee for up to 6 ATM withdrawals/year.
+
+Your account limits vary depending on whether you have
+a subscription or not
+Since you do not have a subscription, your limits are
+- per month and per year for loading
+- balance limit
+You can change/upgrade your limits in the following
+scenarios:
+- You can upgrade your limits if you buy FamX Ultra
+- If you turn 18, your limits get upgraded.
+
+Ways to earn FamCoins:
+- All users can now earn lx FamCoins on their recharges &
+FamX card transactions
+- Additionally, FamX Plus and FamX Ultra users can earn 2x FamCoins from their 2nd purchase onwards of both
+gift cards and Google Play Redeem Codes
+
+FamApp currently does not have any Account Numbers or IFSC codes.
+However, we are constantly working to improve our
+services and will consider this as we work on our app.
+
+As of now, we do not provide any loans or advances on
+our app. However, we are constantly working to improve
+our services and will take this requirement into
+consideration.
+
+While we are checking transaction issues. we request you to try
+transferring the money by following the steps below:
+1. Click your profile photo on the home screen
+2. Scroll down, and tap on "View IDFC Account Details"
+3. Scroll down and tap on "Transfer balance in new account"
+
+All users are given a credit and balance limit of 1L/month on the app.
+However. you can increase your limits to 2L/month by
+upgrading to a FamX UItra membership respectively!
+You can always check your limits in the FamX account
+section of your app.
+
+Please note: before proceeding with account closure,there are some conditions to be aware of. The documents you used for verification cannot be used again while creating a new account. This means if you create a new account, you would have to use different documents during its verification process.
+
+Also note that once closed, you cannot reopen the same account. This means you would lose all your existing rewards, FamCoins, and saved data. Now that you are aware of the conditions, do you wish to proceed with account closure?
+
+SUM
+
+FamX, launched by FamPay, is India's first doodle card for teens, aimed at promoting financial inclusion for individuals aged 11 and above. It's a spending account with over 10 million users, powered by Trio, Visa, Rupay, and UPI. FamX provides a card and UPI linked to the account for easy payments and expense tracking.
+
+Key features include instant UPI payments with customisable UPI IDs, cashback, FamCoins, discounts, and offers from top brands. The numberless card ensures user information safety, supports Tap & Pay, custom doodle designs, and ATM withdrawals. FamX also offers tailored memberships and 24/7 support.
+
+Users can customise their UPI IDs up to 8 times, following certain rules like including their name, avoiding brand names, and using their phone number if a 10-digit number is desired. A backup UPI ID can be added for secure money transfer in case of account issues.
+
+FamX card allows ATM cash withdrawals with certain limits, and a fee of INR 9 per withdrawal, refundable for FamX Ultra users for up to 6 withdrawals per year. Account limits vary based on subscription status, and can be upgraded by purchasing FamX Ultra or turning 18.
+
+FamCoins can be earned through recharges and card transactions, with additional benefits for FamX Plus and Ultra users. Currently, FamApp doesn't provide Account Numbers or IFSC codes, loans, or advances, but is considering these features. Users can transfer money via their profile on the app.
+
+Account closure conditions include the inability to reuse verification documents or reopen the same account, resulting in loss of rewards, FamCoins, and saved data.

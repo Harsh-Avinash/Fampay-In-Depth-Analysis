@@ -5,8 +5,6 @@ description: "Lorem ipsum dolor sit amet - 4"
 
 This is a fully-featured page, written in Markdown!
 
-<iframe src="https://hugchat.streamlit.app/?ref=blog.streamlit.io" width="100%" height="800px" frameborder="0"></iframe>
-
 ```markdown
 ---
 title: Markdown Page!
