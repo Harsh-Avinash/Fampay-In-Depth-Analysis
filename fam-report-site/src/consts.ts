@@ -36,14 +36,15 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
-			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Sentiment Analysis', link: 'en/app-sentiment' },
-			{ text: 'Clustering', link: 'en/app-clustering' },
-			{ text: 'Fampay Response', link: 'en/app-fampayresponse' },
-			{ text: 'Ngram Analysis', link: 'en/app-ngram'},
-			{ text: 'Regression Analysis*', link: 'en/app-regression' }
+		'App Review Analytics': [
+			{ text: 'Introduction', link: 'app/introduction' },
+			{ text: 'Sentiment Analysis', link: 'app/app-sentiment' },
+			{ text: 'Clustering', link: 'app/app-clustering' },
+			{ text: 'Fampay Response', link: 'app/app-fampayresponse' },
+			{ text: 'Ngram Analysis', link: 'app/app-ngram'},
+			{ text: 'Regression Analysis*', link: 'app/app-regression' },
+			{ text: 'Social Network Analysis', link: 'app/app-networkanalysis' }
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
+		'Another Section': [{ text: 'Page 4', link: 'app/page-4' }],
 	},
 };
