@@ -38,8 +38,11 @@ export const SIDEBAR: Sidebar = {
 	en: {
 		'Section Header': [
 			{ text: 'Introduction', link: 'en/introduction' },
+			{ text: 'Sentiment Analysis', link: 'en/app-sentiment' },
 			{ text: 'Clustering', link: 'en/app-clustering' },
-			{ text: 'Fampay Response', link: 'en/app-fampayresponse' }
+			{ text: 'Fampay Response', link: 'en/app-fampayresponse' },
+			{ text: 'Ngram Analysis', link: 'en/app-ngram'},
+			{ text: 'Regression Analysis*', link: 'en/app-regression' }
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},

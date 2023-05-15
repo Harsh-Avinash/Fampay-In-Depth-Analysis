@@ -1,0 +1,30 @@
+<astro>
+    ---
+    import { getBaseUrl } from '$astro/utils';
+    
+    export function passwordProtected() {
+      const baseUrl = getBaseUrl();
+    
+      if (baseUrl !== 'http://localhost:3000/') {
+        return null;
+      }
+    
+      const password = prompt('Enter the password to access this website:');
+    
+      // Change the password value to match your desired password
+      const correctPassword = 'harshu2002';
+    
+      if (password !== correctPassword) {
+        // Redirect to an error page or display an error message
+        window.location.href = `${baseUrl}error.html`;
+      }
+    }
+    ---
+    </astro>
+    
+    <astro>
+    ---
+    <slot />
+    ---
+    </astro>
+    
