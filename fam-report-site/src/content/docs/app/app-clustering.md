@@ -182,12 +182,15 @@ Finally, I analyzed the clusters by looking at the most common reviews in each c
 
 ## Results
 
-In conclusion, this analysis provides valuable insights into the user perception of the Fampay app. By clustering the reviews, we can identify common themes and sentiments among the users, which can guide improvements to the app. The visualization of the clusters also helps in understanding the distribution and overlap of these themes. The methodology used here, including text preprocessing, TF-IDF feature extraction, KMeans clustering, and dimensionality reduction for visualization, is a powerful approach for analyzing text data and can be applied to various other types of text data as well.
-
 <iframe
   src="/App-Analytics/clusters2D.html"
 ></iframe>
 
+In conclusion, this analysis provides valuable insights into the user perception of the Fampay app. By clustering the reviews, we can identify common themes and sentiments among the users, which can guide improvements to the app. The visualization of the clusters also helps in understanding the distribution and overlap of these themes. The methodology used here, including text preprocessing, TF-IDF feature extraction, KMeans clustering, and dimensionality reduction for visualization, is a powerful approach for analyzing text data and can be applied to various other types of text data as well.
+
+<iframe
+  src="/App-Analytics/clustering3D.html"
+></iframe>
 <!-- <iframe
   src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
   style="width:100%; height:300px;"
