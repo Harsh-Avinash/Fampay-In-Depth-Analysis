@@ -37,7 +37,7 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	en: {
 		'App Review Analytics': [
-			{ text: 'Introduction', link: 'app/introduction' },
+			{ text: 'Introduction', link: 'app/app-introduction' },
 			{ text: 'Sentiment Analysis', link: 'app/app-sentiment' },
 			{ text: 'Clustering', link: 'app/app-clustering' },
 			{ text: 'Topic Modeling', link: 'app/app-topicmodeling' },
