@@ -40,10 +40,14 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Introduction', link: 'app/introduction' },
 			{ text: 'Sentiment Analysis', link: 'app/app-sentiment' },
 			{ text: 'Clustering', link: 'app/app-clustering' },
+			{ text: 'Topic Modeling', link: 'app/app-topicmodeling' },
+			{ text: 'Time Series Analysis', link: 'app/app-timeseries'},
 			{ text: 'Fampay Response', link: 'app/app-fampayresponse' },
 			{ text: 'Ngram Analysis', link: 'app/app-ngram'},
 			{ text: 'Regression Analysis*', link: 'app/app-regression' },
-			{ text: 'Social Network Analysis', link: 'app/app-networkanalysis' }
+			{ text: 'Social Network Analysis', link: 'app/app-networkanalysis' },
+			{ text: 'User Behaviour Analysis', link: 'app/app-userbehaviour' },
+			{ text: 'Version Impact', link: 'app/app-versionimpact'}
 		],
 		'Another Section': [{ text: 'Page 4', link: 'app/page-4' }],
 	},
