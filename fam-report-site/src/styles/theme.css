@@ -115,7 +115,11 @@ body {
 		'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
 		/* base color is purple */
-	--theme-base-color: 269, 79%; /* This is the base color variable. Change this to change the theme color. */
+	/*--theme-base-color: 269, 79%;  This is the base color variable. Change this to change the theme color. */
+
+		/* Base colour is dark green */
+
+	--theme-base-color: 120, 70%;
 
 	--color-base-white: 0, 0%;
 	--color-base-black: 240, 100%;

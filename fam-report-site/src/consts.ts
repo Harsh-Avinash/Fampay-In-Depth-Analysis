@@ -36,19 +36,31 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'App Review Analytics': [
-			{ text: 'Introduction', link: 'app/app-introduction' },
-			{ text: 'Sentiment Analysis', link: 'app/app-sentiment' },
-			{ text: 'Clustering', link: 'app/app-clustering' },
-			{ text: 'Topic Modeling', link: 'app/app-topicmodeling' },
-			{ text: 'Time Series Analysis', link: 'app/app-timeseries'},
-			{ text: 'Fampay Response', link: 'app/app-fampayresponse' },
-			{ text: 'Ngram Analysis', link: 'app/app-ngram'},
-			{ text: 'Regression Analysis*', link: 'app/app-regression' },
-			{ text: 'Social Network Analysis', link: 'app/app-networkanalysis' },
-			{ text: 'User Behaviour Analysis', link: 'app/app-userbehaviour' },
-			{ text: 'Version Impact', link: 'app/app-versionimpact'}
+
+		'Architecture': [
+			{ text: 'Introduction', link: 'architecture/introduction' },
+			{ text: 'About Me', link: 'architecture/aboutme' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'app/page-4' }],
+
+		'App Review Analytics': [
+			{ text: 'Introduction', link: 'app-review/introduction' },
+			{ text: 'Data Collection', link: 'app-review/collection' },
+			{ text: 'Sentiment Analysis', link: 'app-review/sentiment' },
+			{ text: 'Clustering', link: 'app-review/clustering' },
+			{ text: 'Topic Modeling', link: 'app-review/topicmodeling' },
+			{ text: 'Time Series Analysis', link: 'app-review/timeseries'},
+			{ text: 'Fampay Response', link: 'app-review/fampayresponse' },
+			{ text: 'Ngram Analysis', link: 'app-review/ngram'},
+			{ text: 'Regression Analysis*', link: 'app-review/regression' },
+			{ text: 'Social Network Analysis', link: 'app-review/networkanalysis' },
+			{ text: 'User Behaviour Analysis', link: 'app-review/userbehaviour' },
+			{ text: 'Version Impact', link: 'app-review/versionimpact'}
+		],
+
+		'Website Analysis': [
+			{ text: 'Introduction', link: 'website-analysis/introduction' },
+			{ text: 'URL Collection', link: 'website-analysis/collection' },
+			{ text: 'Cache Control', link: 'website-analysis/cachecontrolandcontent' },
+		],
 	},
 };
