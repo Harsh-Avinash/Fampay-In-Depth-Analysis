@@ -183,8 +183,7 @@ This 3D scatter plot represents a multi-dimensional view of the website performa
 Here's the plot:
 
 <iframe 
-src="/Web-Analytics/3d_scatter_plot.html" 
-width="100%" 
+    src="/Web-Analytics/3d_scatter_plot.html"
 ></iframe>
 
 In conclusion, each plot serves a specific purpose and provides different insights into the performance metrics of the websites. By analyzing these plots, we can derive meaningful insights about the performance of the websites and identify areas of improvement.

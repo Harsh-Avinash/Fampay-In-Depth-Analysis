@@ -66,6 +66,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Network Requests and Latency', link: 'website-analysis/networkrequests' },
 			{ text: 'Page Size and Resource Analysis', link: 'website-analysis/pagesize' },
 			{ text: 'Search Engine Optimization', link: 'website-analysis/seo' },
+			{ text: 'Keywords', link: 'website-analysis/keywords' },
 		],
 
 		
