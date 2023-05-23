@@ -43,6 +43,18 @@ const { title, headings, githubEditUrl } = Astro.props;
     display: block;
   }
 
+  
+  /* Your new scrollbar styles */
+  nav::-webkit-scrollbar {
+    width: 10px;
+  }
+  nav::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  nav::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
   @media (min-width: 50em) {
     .sm\:hidden {
       display: none;

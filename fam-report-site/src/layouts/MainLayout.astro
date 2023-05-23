@@ -39,7 +39,7 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
       .layout {
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 350px auto; /* Updated width */
+        grid-template-columns: auto;
         overflow-x: hidden;
       }
 
@@ -48,7 +48,7 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
         position: sticky;
         top: 0;
         padding: 0;
-        width: 350px;
+        width: 100%;
       }
 
       #grid-left {
@@ -56,22 +56,22 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
         background-color: var(--theme-bg);
         z-index: 10;
         display: none;
-        width: 350px;
+        width: 100%;
       }
 
       #grid-main {
         padding: var(--doc-padding) var(--gutter);
-        grid-column: 2;
+        grid-column: 1;
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 1000px;
+        width: 100%;
       }
 
       @media (min-width: 50em) {
         .layout {
           overflow: initial;
-          grid-template-columns: 350px auto; /* Updated width */
+          grid-template-columns: 350px auto;
           gap: 1em;
         }
 
@@ -80,20 +80,38 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
           padding-left: 2rem;
           position: sticky;
           grid-column: 1;
+          width: 350px;
+        }
+
+        #grid-main {
+          grid-column: 2;
+          width: auto;
         }
       }
 
       @media (min-width: 72em) {
         .layout {
-          grid-template-columns: 350px auto; /* Updated width */
+          grid-template-columns: 350px auto;
           padding-left: 0;
           padding-right: 0;
           margin: 0 auto;
         }
+
+        #grid-main {
+          width: 1000px;
+        }
+      }
+
+      @media (max-width: 72em) {
+        #grid-main {
+          width: 100%;
+        }
       }
     </style>
-  </head><body>
+  </head>
+  <body>
     <Header currentPage={currentPage} />
+    <!-- <button id="sidebar-toggle">Toggle Sidebar</button> -->
     <main class="layout">
       <aside id="grid-left" class="grid-sidebar" title="Site Navigation">
         <LeftSidebar currentPage={currentPage} />
@@ -109,5 +127,17 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
       </div>
     </main>
     <Footer path={currentFile} />
+    <script>
+      document
+        .getElementById("sidebar-toggle")
+        .addEventListener("click", function () {
+          var sidebar = document.getElementById("grid-left");
+          if (sidebar.style.display === "none") {
+            sidebar.style.display = "flex";
+          } else {
+            sidebar.style.display = "none";
+          }
+        });
+    </script>
   </body>
 </html>

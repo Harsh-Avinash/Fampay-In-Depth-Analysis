@@ -106,6 +106,16 @@ const lang = getLanguageFromURL(currentPage);
     padding: 0 1rem;
   }
 
+  #grid-main {
+  padding: var(--doc-padding) var(--gutter);
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; /* ensures padding is included in width */
+}
+
   @media (min-width: 50em) {
     header {
       position: static;
@@ -125,6 +135,14 @@ const lang = getLanguageFromURL(currentPage);
     .menu-toggle {
       display: none;
     }
+
+    #grid-main {
+    grid-column: 2;
+    padding: var(--doc-padding) 2em; /* more padding on larger screens */
+    width: auto;
+    max-width: 800px; /* or whatever max width you want */
+    margin: 0 auto; /* center the content if it's smaller than max-width */
+  }
   }
 
   /** Style Algolia */
@@ -154,4 +172,8 @@ const lang = getLanguageFromURL(currentPage);
   .search-item > * {
     flex-grow: 1;
   }
+
+  .mobile-sidebar-toggle #grid-left {
+  display: flex;
+}
 </style>

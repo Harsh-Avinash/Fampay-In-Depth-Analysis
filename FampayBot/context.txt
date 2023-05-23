@@ -67,17 +67,3 @@ section of your app.
 Please note: before proceeding with account closure,there are some conditions to be aware of. The documents you used for verification cannot be used again while creating a new account. This means if you create a new account, you would have to use different documents during its verification process.
 
 Also note that once closed, you cannot reopen the same account. This means you would lose all your existing rewards, FamCoins, and saved data. Now that you are aware of the conditions, do you wish to proceed with account closure?
-
-SUM
-
-FamX, launched by FamPay, is India's first doodle card for teens, aimed at promoting financial inclusion for individuals aged 11 and above. It's a spending account with over 10 million users, powered by Trio, Visa, Rupay, and UPI. FamX provides a card and UPI linked to the account for easy payments and expense tracking.
-
-Key features include instant UPI payments with customisable UPI IDs, cashback, FamCoins, discounts, and offers from top brands. The numberless card ensures user information safety, supports Tap & Pay, custom doodle designs, and ATM withdrawals. FamX also offers tailored memberships and 24/7 support.
-
-Users can customise their UPI IDs up to 8 times, following certain rules like including their name, avoiding brand names, and using their phone number if a 10-digit number is desired. A backup UPI ID can be added for secure money transfer in case of account issues.
-
-FamX card allows ATM cash withdrawals with certain limits, and a fee of INR 9 per withdrawal, refundable for FamX Ultra users for up to 6 withdrawals per year. Account limits vary based on subscription status, and can be upgraded by purchasing FamX Ultra or turning 18.
-
-FamCoins can be earned through recharges and card transactions, with additional benefits for FamX Plus and Ultra users. Currently, FamApp doesn't provide Account Numbers or IFSC codes, loans, or advances, but is considering these features. Users can transfer money via their profile on the app.
-
-Account closure conditions include the inability to reuse verification documents or reopen the same account, resulting in loss of rewards, FamCoins, and saved data.

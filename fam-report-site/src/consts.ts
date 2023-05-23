@@ -69,6 +69,19 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Keywords', link: 'website-analysis/keywords' },
 		],
 
-		
+		'Chatbot Analysis': [
+			{ text: 'Introduction', link: 'chatbot/introduction' },
+			{ text: 'Current Chatbot', link: 'chatbot/currentbot' },
+			{ text: 'New FamBot', link: 'chatbot/fambot' },
+		],
+
+		'Fampay Information Online': [
+			{ text: 'Introduction', link: 'information/introduction' },
+			{ text: 'PDFs', link: 'information/pdfs' },
+			{ text: 'Government Findings', link: 'information/governmentfindings' },
+			{ text: 'APKs', link: 'information/apks' },
+			{ text: 'Team', link: 'information/team' },
+		]
+
 	},
 };
