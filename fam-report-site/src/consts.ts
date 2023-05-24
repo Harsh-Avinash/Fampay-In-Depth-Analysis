@@ -75,13 +75,31 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'New FamBot', link: 'chatbot/fambot' },
 		],
 
-		'Fampay Information Online': [
+		'Social Media Analysis': [
+			{ text: 'Introduction', link: 'social-media/introduction' },
+			{ text: 'Instagram Data Collection', link: 'social-media/instagram' },
+			{ text: 'Instagram Data Analysis', link: 'social-media/instapostanalysis' },
+			{ text: 'Twitter', link: 'social-media/twitter' },
+			{ text: 'Facebook', link: 'social-media/facebook' },
+			{ text: 'YouTube', link: 'social-media/youtube' },
+			{ text: 'LinkedIn', link: 'social-media/linkedin' },
+			{ text: 'Discord', link: 'social-media/discord' },
+		],
+
+		'Fampay Competitor Analysis': [
+			{ text: 'Introduction', link: 'competitor/introduction' },
+			{ text: 'Direct Competition', link: 'competitor/directcomp' },
+			{ text: 'Mainstream Competition', link: 'competitor/mainstreamcomp' },
+			{ text: 'Potential Competition', link: 'competitor/potentialcomp' },
+		],
+
+		'Fampay Online Presence': [
 			{ text: 'Introduction', link: 'information/introduction' },
 			{ text: 'PDFs', link: 'information/pdfs' },
 			{ text: 'Government Findings', link: 'information/governmentfindings' },
 			{ text: 'APKs', link: 'information/apks' },
 			{ text: 'Team', link: 'information/team' },
-		]
+		],
 
 	},
 };

@@ -21,7 +21,7 @@ The chatbot's ability to connect users to support is a valuable feature, especia
 ### Observation of Chatbot Responses
 
 | Feature | Effectiveness | User Experience | Transition to Support |
-|---------|---------------|-----------------|-----------------------|
+|-|-|-|-|
 | Suggested Questions and Answers | Good | Good | Fair |
 | Connection to Support | Excellent | Excellent | -- |
 

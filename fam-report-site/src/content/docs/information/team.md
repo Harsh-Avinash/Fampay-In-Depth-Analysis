@@ -118,7 +118,45 @@ In this report, I present insights into the team members of FamPay, a prominent 
 | RICHA KHANDELWAL | https://linkedin.com/in/richak | Engineering Manager at Meta leading a high performing full stack team (mobile, web and server) of engineers across 3 sub-teams, and managing managers ... | Richa Khandelwal - Engineering Leader - Airbnb | https://twitter.com/ri_cha_k | New Product Blog! What to know what a day in the life is like for a Senior Engineering Manager at HubSpot? Richa Khandelwal answers that question and ... | Ri_cha_k - Richa
 | Aadesh Uikey | https://linkedin.com/in/aadesh-uikey- | Aadesh Uikey. Turning ideas into art at Fam //. FamPayNational Institute of Technology Calicut. Ujjain, Madhya Pradesh, India. 238 followers 238 connections. | Aadesh Uikey - Video Editor - FamPay | https://twitter.com/nitinuikey15 | Katrina Kaif is an English actress who works in Hindi films. Despite receiving mixed reviews from critics for her acting prowess, she has established herself... | Nitin Uikey (@NitinUikey15) / Twitter
 
-And then using a script I ran on the Team Page
+### And then using a script I ran on the Team Page
+
+```python
+for div in soup.find_all('div', {'class': 'FamstarsContainer_famstar_card__JDx0T'}):
+    a_tag = div.find_parent('a')
+    name = div.find('p', {'class': 'FamstarsContainer_famstar_name__BCsEs'}).text.strip()
+    link = a_tag['href']
+    role = div.find('p', {'class': 'FamstarsContainer_famstar_role__PDlaS'}).text.strip()
+    status = div.find('div', {'class': 'FamstarsContainer_famstar_status__KhyOK'}).text.strip()
+    famstar = {
+        'Name': name,
+        'LinkedIn Profile': link,
+        'Role': role,
+        'Status': status
+    }
+    famstars.append(famstar)
+
+with open('famstars.csv', mode='w', newline='') as csv_file:
+    fieldnames = ['Name', 'LinkedIn Profile', 'Role', 'Status']
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+    writer.writeheader()
+    for famstar in famstars:
+        writer.writerow(famstar)
+```
+
+1.  The code initializes an empty list called `famstars` to store the extracted data.
+    
+2.  It uses the `soup.find_all()` method to find all `<div>` elements with the CSS class `'FamstarsContainer_famstar_card__JDx0T'` on a web page. This suggests that it is targeting specific elements with that class for extraction.
+    
+3.  For each matching `<div>` element, it performs the following steps:
+    
+    *   It finds the parent `<a>` element using the `find_parent()` method.
+    *   It extracts the name by finding a `<p>` element with the CSS class `'FamstarsContainer_famstar_name__BCsEs'` and retrieving its text content.
+    *   It extracts the link by accessing the `'href'` attribute of the previously found parent `<a>` element.
+    *   It extracts the role by finding a `<p>` element with the CSS class `'FamstarsContainer_famstar_role__PDlaS'` and retrieving its text content.
+    *   It extracts the status by finding a `<div>` element with the CSS class `'FamstarsContainer_famstar_status__KhyOK'` and retrieving its text content.
+4.  The extracted information is then stored in a dictionary called `famstar`, with keys `'Name'`, `'LinkedIn Profile'`, `'Role'`, and `'Status'`, and appended to the `famstars` list.
+    
+5.  After extracting all the data, it saves the information to a CSV file named `'famstars.csv'` using the `csv` module. It creates a `DictWriter` object, specifies the fieldnames as `['Name', 'LinkedIn Profile', 'Role', 'Status']`, writes the header row, and then iterates over the `famstars` list, writing each dictionary as a row in the CSV file.
 
 | Name | LinkedIn | Role | Twitter | Bio | Twitter Bio | Twitter URL
 | --- | --- | --- | --- | --- | --- | ---
