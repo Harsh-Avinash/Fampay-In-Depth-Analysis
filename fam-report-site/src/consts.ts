@@ -79,11 +79,8 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Introduction', link: 'social-media/introduction' },
 			{ text: 'Instagram Data Collection', link: 'social-media/instagram' },
 			{ text: 'Instagram Data Analysis', link: 'social-media/instapostanalysis' },
-			{ text: 'Twitter', link: 'social-media/twitter' },
-			{ text: 'Facebook', link: 'social-media/facebook' },
 			{ text: 'YouTube', link: 'social-media/youtube' },
 			{ text: 'LinkedIn', link: 'social-media/linkedin' },
-			{ text: 'Discord', link: 'social-media/discord' },
 		],
 
 		'Fampay Competitor Analysis': [
