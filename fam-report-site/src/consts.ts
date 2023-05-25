@@ -40,6 +40,8 @@ export const SIDEBAR: Sidebar = {
 		'Architecture': [
 			{ text: 'Introduction', link: 'architecture/introduction' },
 			{ text: 'About Me', link: 'architecture/aboutme' },
+			{ text: 'Key Takeaways', link: 'architecture/takeaway' },
+			{ text: 'Disclamier', link: 'architecture/disclaimer' },
 		],
 
 		'App Review Analytics': [

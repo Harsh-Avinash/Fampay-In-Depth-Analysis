@@ -3,7 +3,34 @@ title: "About Me"
 description: "Docs intro"
 ---
 
-I am Harsh Avinash a dedicated, resourceful, and dynamic individual who is passionate about combining data analysis with product development strategies to create innovative solutions that provide value to both businesses and their customers. My background in computer science and data analysis has equipped me with a solid foundation in various programming languages, machine learning algorithms, and data visualization tools. 
+<style>
+    #my-iframe {
+        height: 2950px; /* Set an initial height */
+        width: 100%;
+
+        border: none; /* Remove borders */
+    }
+
+    @media screen and (max-width: 800px) {
+        #my-iframe {
+            height: 100px; /* Set a smaller height */
+            overflow: auto; /* Enable scrolling */
+        }
+    }
+</style>
+<script>
+    // Function to adjust iframe height based on content
+    function adjustIframeHeight() {
+        var iframe = document.getElementById('my-iframe');
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+
+<iframe id="my-iframe" src="https://www.harshavinash.in/" onload="adjustIframeHeight()" scrolling="no"></iframe>
+
+
+
+<!-- I am Harsh Avinash a dedicated, resourceful, and dynamic individual who is passionate about combining data analysis with product development strategies to create innovative solutions that provide value to both businesses and their customers. My background in computer science and data analysis has equipped me with a solid foundation in various programming languages, machine learning algorithms, and data visualization tools. 
 
 Throughout my academic journey, I've honed my skills by engaging in several projects that have tested and expanded my technical, analytical, and problem-solving skills. I've always been intrigued by the potential of data to drive product innovation, and Fam's position as a trailblazer in the financial tech industry has captured my interest.
 
@@ -23,14 +50,6 @@ April 2018 – April 2020
 94 Percentage
 
 ## Experience
-
-
-<!-- Indian Institute of Technology, Delhi logo
-Research FellowResearch Fellow
-Indian Institute of Technology, Delhi · InternshipIndian Institute of Technology, Delhi · Internship
-May 2023 - Present · 1 moMay 2023 - Present · 1 mo
-Hauz Khas, Delhi, India · On-siteHauz Khas, Delhi, India · On-site
-Skills: Large Language Models (LLM) · Multimodal Analysis · Machine Learning · Python (Programming Language) · Artificial Intelligence (AI) -->
 
 **Research Fellow**  
 Indian Institute of Technology, Delhi  
@@ -72,4 +91,4 @@ Built machine learning models and integrated them with web frameworks. Performed
 **Data Science:** Python, Jupyter Notebook, Tableau, Excel, R, C++, C#  
 **Web Development:** HTML, CSS, JavaScript, React, Redux, Node, Go, Express, Django  
 **Dev Ops:** Azure, AWS, GCP  
-**Others:** Solidity, .NET, Unity, Figma, Adobe XD
+**Others:** Solidity, .NET, Unity, Figma, Adobe XD -->

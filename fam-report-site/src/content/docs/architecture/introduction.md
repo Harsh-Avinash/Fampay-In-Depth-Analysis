@@ -30,71 +30,64 @@ I'm kidding lol, [here](https://open.spotify.com/playlist/1Wjs7t4zdfJ2JjPX4ENpu9
 
 Let's proceed to delve into the details.
 
-### Table of Contents
+# Table of Contents
 
-- [App Review Analytics](#app-analytics)
-- [Website Analysis](#website-analytics)
-- [Chatbot Analysis](#chatbot)
-- [Social Media Analysis](#social-media-analytics)
-- [Fampay Competitor Analysis](#competition-analysis)
-- [Fampay Online Presence](#information)
+1. [**App Review Analytics**](#app-analytics)
+    - Overview of application reviews and their impact on user acquisition, retention, and overall user experience.
+    - [**Introduction**](../app-review/introduction): Briefly explains the importance of app reviews and the overall scope of this section.
+    - [**Data Collection**](../app-review/collection): Details the methods used for gathering app reviews data.
+    - [**Sentiment Analysis**](../app-review/sentiment): Investigates the overall sentiment of the reviews and identifies common trends.
+    - [**Clustering**](../app-review/clustering): Discusses how reviews can be grouped based on similarities.
+    - [**Topic Modeling**](../app-review/topicmodeling): Explores the main topics discussed in the reviews.
+    - [**Time Series Analysis**](../app-review/timeseries): Looks at how the reviews have changed over time.
+    - [**Fampay Response**](../app-review/fampayresponse): Analyzes how Fampay responds to customer reviews.
+    - [**Ngram Analysis**](../app-review/ngram): Identifies common phrases and ideas in the reviews.
+    - [**Regression Analysis**](../app-review/regression): Discusses any noticeable patterns or relationships in the reviews data.
+    - [**Social Network Analysis**](../app-review/networkanalysis): Looks at the interaction of users based on their reviews.
+    - [**User Behaviour Analysis**](../app-review/userbehaviour): Explores how users behave within the app based on their reviews.
+    - [**Version Impact**](../app-review/versionimpact): Analyzes how different versions of the app have been received by users.
 
-1. **App Review Analytics**
+2. [**Website Analysis**](#website-analytics)
+    - Comprehensive analysis of the website, including performance, SEO, and user experience.
+    - [**Introduction**](../website-analysis/introduction): Presents the objective of website analysis and what it entails.
+    - [**URL Collection**](../website-analysis/collection): Discusses how URLs were collected for the analysis.
+    - [**Cache Control**](../website-analysis/cachecontrolandcontent): Describes how cache control settings affect the website's performance.
+    - [**Page Speed Insights**](../website-analysis/pagespeedinsights): Analyses the speed and performance of the website.
+    - [**Mobile vs Desktop Analysis**](../website-analysis/mobilevsdesktop): Compares the website's performance on mobile and desktop platforms.
+    - [**Network Requests and Latency**](../website-analysis/networkrequests): Discusses the network latency and request handling of the website.
+    - [**Page Size and Resource Analysis**](../website-analysis/pagesize): Analyzes the size of web pages and their resource usage.
+    - [**Search Engine Optimization**](../website-analysis/seo): Evaluates the SEO strategies of the website.
+    - [**Keywords**](../website-analysis/keywords): Identifies the main keywords used in the website's content.
 
-    * [Introduction](../app-review/introduction)
-    * [Data Collection](../app-review/collection)
-    * [Sentiment Analysis](../app-review/sentiment)
-    * [Clustering](../app-review/clustering)
-    * [Topic Modeling](../app-review/topicmodeling)
-    * [Time Series Analysis](../app-review/timeseries)
-    * [Fampay Response](../app-review/fampayresponse)
-    * [Ngram Analysis](../app-review/ngram)
-    * [Regression Analysis](../app-review/regression)
-    * [Social Network Analysis](../app-review/networkanalysis)
-    * [User Behaviour Analysis](../app-review/userbehaviour)
-    * [Version Impact](../app-review/versionimpact)
+3. [**Chatbot Analysis**](#chatbot)
+    - Detailed study of the current chatbot capabilities and possibilities for future development.
+    - [**Introduction**](../chatbot/introduction): Outlines the purpose and scope of the chatbot analysis.
+    - [**Current Chatbot**](../chatbot/currentbot): Evaluates the current functionality and performance of the chatbot.
+    - [**New FamBot**](../chatbot/fambot): Presents potential enhancements for the chatbot based on analysis.
 
+4. [**Social Media Analysis**](#social-media-analytics)
+    - Insights into the brand's social media activity, including audience engagement, reach, and sentiment analysis.
+    - [**Introduction**](../social-media/introduction): Explains the significance of social media analysis for a brand like Fampay.
+    - [**Instagram Data Collection**](../social-media/instagram): Details the methods used for gathering Instagram data.
+    - [**Instagram Data Analysis**](../social-media/instapostanalysis): Analyzes Instagram posts to understand user engagement and sentiment.
+    - [**YouTube**](../social-media/youtube): Examines Fampay's YouTube presence and analyzes the performance of their content.
+    - [**LinkedIn**](../social-media/linkedin): Discusses Fampay's LinkedIn activity and engagement.
 
-1. **Website Analysis**
+5. [**Fampay Competitor Analysis**](#competition-analysis)
+    - Comprehensive comparison of Fampay with other key players in the market to understand competitive advantages.
+    - [**Introduction**](../competitor/introduction): Provides an overview of the competitor analysis.
+    - [**Direct Competition**](../competitor/directcomp): Analyses companies that offer similar products or services as Fampay.
+    - [**Mainstream Competition**](../competitor/mainstreamcomp): Discusses competition from larger, more established companies.
+    - [**Potential Competition**](../competitor/potentialcomp): Predicts possible future competitors based on market trends.
 
-    * [Introduction](../website-analysis/introduction)
-    * [URL Collection](../website-analysis/collection)
-    * [Cache Control](../website-analysis/cachecontrolandcontent)
-    * [Page Speed Insights](../website-analysis/pagespeedinsights)
-    * [Mobile vs Desktop Analysis](../website-analysis/mobilevsdesktop)
-    * [Network Requests and Latency](../website-analysis/networkrequests)
-    * [Page Size and Resource Analysis](../website-analysis/pagesize)
-    * [Search Engine Optimization](../website-analysis/seo)
-    * [Keywords](../website-analysis/keywords)
+6. [**Fampay Online Presence**](#information)
+    - A comprehensive assessment of Fampay's online presence, including details about the team, government findings, and APKs.
+    - [**Introduction**](../information/introduction): Explains the goal and scope of the online presence analysis.
+    - [**PDFs**](../information/pdfs): Reviews any PDFs related to Fampay found online.
+    - [**Government Findings**](../information/governmentfindings): Discusses any government records or findings related to Fampay.
+    - [**APKs**](../information/apks): Investigates APK files of Fampay app available online.
+    - [**Team**](../information/team): Provides an overview of the Fampay team based on online resources.
 
-1. **Chatbot Analysis**
-
-    * [Introduction](../chatbot/introduction)
-    * [Current Chatbot](../chatbot/currentbot)
-    * [New FamBot](../chatbot/fambot)
-
-1. **Social Media Analysis**
-
-    * [Introduction](../social-media/introduction)
-    * [Instagram Data Collection](../social-media/instagram)
-    * [Instagram Data Analysis](../social-media/instapostanalysis)
-    * [YouTube](../social-media/youtube)
-    * [LinkedIn](../social-media/linkedin)
-
-1. **Fampay Competitor Analysis**
-
-    * [Introduction](../competitor/introduction)
-    * [Direct Competition](../competitor/directcomp)
-    * [Mainstream Competition](../competitor/mainstreamcomp)
-    * [Potential Competition](../competitor/potentialcomp)
-
-1. **Fampay Online Presence**
-
-    * [Introduction](../information/introduction)
-    * [PDFs](../information/pdfs)
-    * [Government Findings](../information/governmentfindings)
-    * [APKs](../information/apks)
-    * [Team](../information/team)
 
 ### App-Analytics
 
@@ -133,9 +126,10 @@ This section presents the analysis of various relevant information about Fampay:
 
 ### Social Media Analytics
 
-Social media is a powerful tool for customer engagement and brand promotion. In this section, I analyze Fampay's social media presence:
-1.	**Discord, Twitter, Instagram, YouTube**: Examining these platforms to understand Fampay's social media strategies, user engagement, content quality, and sentiment towards the brand.
-2.	**Posts, Replies, Followers**: Detailed analysis of user interaction metrics like posts, replies, and followers, to assess the effectiveness of social media strategies.
+Social media is a powerful tool for marketing and brand building. This section analyzes Fampay's social media presence and engagement, including:
+1.	**Instagram**: A detailed look at Fampay's Instagram activity, including audience engagement, reach, and sentiment analysis.
+2.	**LinkedIn**: An analysis of Fampay's LinkedIn activity and engagement.
+3.	**YouTube**: A study of Fampay's YouTube presence and the performance of their content.
 
 ### Website Analytics
 

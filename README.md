@@ -1,37 +1,139 @@
-# Fampay in Depth Analysis
+# Fampay in Depth Analysis (The Fam Report)
 
-This repository contains code and information used for creating a report for Fampay. The aim of the report is to impress the company and secure a full-time internship for the summer.
+Over the past month, I've committed myself to explore Fam's ecosystem, resulting in the detailed report that lies ahead of you. This process has allowed me to delve into various aspects of your operations, providing me with a profound understanding and appreciation of your work. 
 
-## Folder Structure
+I've primarily focused my analysis on six key areas: 
+
+* **App Review Analytics**
+* **Competition Analysis**
+* **Chatbot**
+* **Information**
+* **Social Media Analytics**
+* **Website Analytics**
+
+My goal is to present findings that can foster enhanced user experiences, streamline operations, and help shape strategic decisions.
+
+For an enjoyable review experience, I've also curated a playlist featuring a blend of instrumental, energetic pop, and calming tunes. I hope it serves as a pleasant accompaniment as you explore this report.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4jX8JoJMZa4IIQF1jA60kS?utm_source=generator&theme=0" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+I'm kidding lol, [here](https://open.spotify.com/playlist/1Wjs7t4zdfJ2JjPX4ENpu9?si=1af8407e896a48e1) is an insane playlist that I've been listening to lately. I hope you enjoy it as much as I do.
+
+Let's proceed to delve into the details.
+
+# Table of Contents
+
+1. [**App Review Analytics**](#app-analytics)
+    - Overview of application reviews and their impact on user acquisition, retention, and overall user experience.
+    - [**Introduction**](../app-review/introduction): Briefly explains the importance of app reviews and the overall scope of this section.
+    - [**Data Collection**](../app-review/collection): Details the methods used for gathering app reviews data.
+    - [**Sentiment Analysis**](../app-review/sentiment): Investigates the overall sentiment of the reviews and identifies common trends.
+    - [**Clustering**](../app-review/clustering): Discusses how reviews can be grouped based on similarities.
+    - [**Topic Modeling**](../app-review/topicmodeling): Explores the main topics discussed in the reviews.
+    - [**Time Series Analysis**](../app-review/timeseries): Looks at how the reviews have changed over time.
+    - [**Fampay Response**](../app-review/fampayresponse): Analyzes how Fampay responds to customer reviews.
+    - [**Ngram Analysis**](../app-review/ngram): Identifies common phrases and ideas in the reviews.
+    - [**Regression Analysis**](../app-review/regression): Discusses any noticeable patterns or relationships in the reviews data.
+    - [**Social Network Analysis**](../app-review/networkanalysis): Looks at the interaction of users based on their reviews.
+    - [**User Behaviour Analysis**](../app-review/userbehaviour): Explores how users behave within the app based on their reviews.
+    - [**Version Impact**](../app-review/versionimpact): Analyzes how different versions of the app have been received by users.
+
+2. [**Website Analysis**](#website-analytics)
+    - Comprehensive analysis of the website, including performance, SEO, and user experience.
+    - [**Introduction**](../website-analysis/introduction): Presents the objective of website analysis and what it entails.
+    - [**URL Collection**](../website-analysis/collection): Discusses how URLs were collected for the analysis.
+    - [**Cache Control**](../website-analysis/cachecontrolandcontent): Describes how cache control settings affect the website's performance.
+    - [**Page Speed Insights**](../website-analysis/pagespeedinsights): Analyses the speed and performance of the website.
+    - [**Mobile vs Desktop Analysis**](../website-analysis/mobilevsdesktop): Compares the website's performance on mobile and desktop platforms.
+    - [**Network Requests and Latency**](../website-analysis/networkrequests): Discusses the network latency and request handling of the website.
+    - [**Page Size and Resource Analysis**](../website-analysis/pagesize): Analyzes the size of web pages and their resource usage.
+    - [**Search Engine Optimization**](../website-analysis/seo): Evaluates the SEO strategies of the website.
+    - [**Keywords**](../website-analysis/keywords): Identifies the main keywords used in the website's content.
+
+3. [**Chatbot Analysis**](#chatbot)
+    - Detailed study of the current chatbot capabilities and possibilities for future development.
+    - [**Introduction**](../chatbot/introduction): Outlines the purpose and scope of the chatbot analysis.
+    - [**Current Chatbot**](../chatbot/currentbot): Evaluates the current functionality and performance of the chatbot.
+    - [**New FamBot**](../chatbot/fambot): Presents potential enhancements for the chatbot based on analysis.
+
+4. [**Social Media Analysis**](#social-media-analytics)
+    - Insights into the brand's social media activity, including audience engagement, reach, and sentiment analysis.
+    - [**Introduction**](../social-media/introduction): Explains the significance of social media analysis for a brand like Fampay.
+    - [**Instagram Data Collection**](../social-media/instagram): Details the methods used for gathering Instagram data.
+    - [**Instagram Data Analysis**](../social-media/instapostanalysis): Analyzes Instagram posts to understand user engagement and sentiment.
+    - [**YouTube**](../social-media/youtube): Examines Fampay's YouTube presence and analyzes the performance of their content.
+    - [**LinkedIn**](../social-media/linkedin): Discusses Fampay's LinkedIn activity and engagement.
+
+5. [**Fampay Competitor Analysis**](#competition-analysis)
+    - Comprehensive comparison of Fampay with other key players in the market to understand competitive advantages.
+    - [**Introduction**](../competitor/introduction): Provides an overview of the competitor analysis.
+    - [**Direct Competition**](../competitor/directcomp): Analyses companies that offer similar products or services as Fampay.
+    - [**Mainstream Competition**](../competitor/mainstreamcomp): Discusses competition from larger, more established companies.
+    - [**Potential Competition**](../competitor/potentialcomp): Predicts possible future competitors based on market trends.
+
+6. [**Fampay Online Presence**](#information)
+    - A comprehensive assessment of Fampay's online presence, including details about the team, government findings, and APKs.
+    - [**Introduction**](../information/introduction): Explains the goal and scope of the online presence analysis.
+    - [**PDFs**](../information/pdfs): Reviews any PDFs related to Fampay found online.
+    - [**Government Findings**](../information/governmentfindings): Discusses any government records or findings related to Fampay.
+    - [**APKs**](../information/apks): Investigates APK files of Fampay app available online.
+    - [**Team**](../information/team): Provides an overview of the Fampay team based on online resources.
 
 
-This directory structure represents a comprehensive data analysis project for Fampay, a company that offers a mobile payment application. The project is divided into different sections, each focusing on various aspects of the company's performance, competition, and social media presence.
+### App-Analytics
 
-1. **App-Analytics:** This directory contains subdirectories for different aspects of Fampay's app performance analysis:
-   * Clustering
-   * FampayResponse
-   * LogHunter
-   * NGram
-   * RegressionAnalysis
-   * Sentiment
-   * Social network analysis
-   * TimeSeriesAnalysis
-   * Topic Modeling
-   * UserBehaviour
-   * VersionImpactAnalysis
-2. **Competion:** This directory contains data and analyses on Fampay's competitors. It includes a notebook for app analysis and two subdirectories:
-   * App-Comp: Contains information about Direct_Comp, Fampay, Mainstream_Comp, and Potential_Comp.
-   * Information: Contains comparison notebook and information about Indian companies.
-3. **FampayBot:** This directory contains files related to Fampay's chatbot. It has files for different chatbot models, including BERT, Bloom, DistillBERT, GPT-2, and Longformer.
-4. **Information:** This directory contains general information about Fampay, including documents, data about app versions, product details, and team information.
-5. **Keys:** This directory stores API keys and related files for different services.
-6. **Social-Analytics:** This directory contains analyses of Fampay's presence on various social media platforms, including Discord, Instagram, Twitter, and Youtube.
-7. **Warehouse:** This directory stores web-scraped data, APK files, backups, and links. It has subdirectories for web score data, APKs, backup data, web crawlers, and links.
+This section delves into the intricate details of Fampay's application. The data gathered and analyzed here serves to shine a light on the behaviors and patterns of users, as well as their responses to different versions of the app. Specific topics covered include:
+1.	**LogHunter**: A now discarded element, originally intended to gather and analyze app logs for performance and bug tracking.
+2.	**Clustering**: This analysis groups users based on their behavior patterns within the app, providing insights for personalized marketing strategies and user experience improvements.
+3.	**FampayResponse**: A focused study on user's response to Fampay's app features and services, aimed at identifying areas of success and opportunities for improvement.
+4.	**NGram**: A technique used to predict what users are likely to do next within the app, helping in feature planning and improving user interface.
+5.	**Regression Analysis**: A statistical analysis aimed at understanding the relationship between user interactions and their impact on Fampay's growth metrics.
+6.	**Sentiment**: An examination of user sentiments towards the app, based on reviews and user feedback.
+7.	**Social network analysis**: Understanding how users interact within the app's social features and their impact on user retention.
+8.	**Time Series Analysis**: Analysis of the app's performance and usage over time, helping identify trends and seasonality.
+9.	**Topic Modeling**: Used to categorize user reviews and feedback into different topics, giving a clearer picture of what areas users are discussing the most.
+10.	**User Behaviour**: A deep dive into how users interact with the app, providing insights into improving user journey and experience.
+11.	**Version Impact Analysis**: Examining how different versions of the app are received by the users and their impact on key metrics.
 
-Each subdirectory within these main directories contains a combination of data files, notebooks, models, and images for the respective analysis.
+### Competition Analysis
 
-## Usage
+Understanding the competitive landscape is key to strategic planning. In this section, I compare Fampay's features, services, and user sentiments with its competitors'. The analysis includes:
+1.	**Data Extraction**: Using public data to understand competitors' user base, features, and strategies.
+2.	**Social Network**: Analyzing competitors' social media presence and user engagement.
+3.	**Information**: An in-depth look into competitors' company information, business strategies, and product offerings.
+4.	**App Comp Reviews**: Comparison of app reviews and ratings of Fampay and its competitors, to understand their strengths and weaknesses.
 
-To use the code in this repository, you will need to have the necessary software installed. This includes Python 3.10 and the required Python packages such as pandas, numpy, and matplotlib. Additionally, you will need access to Fampay's Google Analytics data and the authentication key (fampay-analytics-xxxx.json) stored in the Keys folder.
+### Chatbot
 
-To run the code, you can simply open the relevant notebook in Jupyter Notebook or JupyterLab and run the code cells. Before running the code, make sure to update any file paths or API keys as necessary.
+The evolution of chatbots is revolutionizing customer service. This section explores the idea of introducing an LLM Chatbot, "FamBot", with an evaluation of its potential benefits over the current chatbot system.
+
+### Information
+This section presents the analysis of various relevant information about Fampay:
+1.	**Government Filings**: Examination of regulatory filings to understand Fampay's compliance and financial health.
+2.	**App Versions**: A study of different versions of the app and their impact on user satisfaction and engagement.
+3.	**Team**: An overview of the team's structure, roles, and expertise.
+4.	**Product At Fampay**: An in-depth look at Fampay's product team.
+5.	**Pdfs**: Any relevant information from pdf resources like whitepapers, case studies, etc.
+
+### Social Media Analytics
+
+Social media is a powerful tool for marketing and brand building. This section analyzes Fampay's social media presence and engagement, including:
+1.	**Instagram**: A detailed look at Fampay's Instagram activity, including audience engagement, reach, and sentiment analysis.
+2.	**LinkedIn**: An analysis of Fampay's LinkedIn activity and engagement.
+3.	**YouTube**: A study of Fampay's YouTube presence and the performance of their content.
+
+### Website Analytics
+
+The website is the digital face of a company. I conduct a comprehensive analysis of Fampay's website for potential areas of improvement:
+1.	**Page Size and Resource Analysis**: Evaluating the efficiency of the website's resource usage and its impact on load time and user experience.
+2.	**Link Extractor**: A tool that provides a map of all the internal and external links on the website.
+3.	**SEO**: Analyzing the website's search engine optimization strategies and their effectiveness.
+4.	**Caching and Compression**: Evaluation of caching and compression strategies to improve website load time.
+5.	**Mobile vs Desktop Analysis**: Comparison of the website's performance on mobile vs desktop platforms.
+6.	**Keywords**: Identifying the most used keywords and their impact on search engine ranking.
+7.	**Network Requests and Latency**: Analyzing network requests and latency for potential performance improvements.
+8.	**GooglePage SpeedInsights**: A tool that provides insights on website speed and suggestions for improvements.
+
+Here is a flowchart of the entire report on this [Figjam File](https://www.figma.com/file/abAQGPwpTai1uS5njcXpo8/Fam-Report-Structure?node-id=0%3A1)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FabAQGPwpTai1uS5njcXpo8%2FFam-Report-Structure%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DBvjc70UBaZ4dEmXs-1" allowfullscreen></iframe>
