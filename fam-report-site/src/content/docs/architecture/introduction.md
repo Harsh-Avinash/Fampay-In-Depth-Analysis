@@ -9,64 +9,92 @@ My name is Harsh Avinash, and I am currently in the final year of my Computer Sc
 
 Over the past month, I've committed myself to explore Fam's ecosystem, resulting in the detailed report that lies ahead of you. This process has allowed me to delve into various aspects of your operations, providing me with a profound understanding and appreciation of your work. 
 
-I've primarily focused my analysis on six key areas: **App-Analytics, Competition Analysis, Chatbot, Information, Social Media Analytics, and Website Analytics**. My goal is to present findings that can foster enhanced user experiences, streamline operations, and help shape strategic decisions.
+I've primarily focused my analysis on six key areas: 
+
+* **App Review Analytics**
+* **Competition Analysis**
+* **Chatbot**
+* **Information**
+* **Social Media Analytics**
+* **Website Analytics**
+
+My goal is to present findings that can foster enhanced user experiences, streamline operations, and help shape strategic decisions.
 
 With my academic credentials, professional experiences, and comprehensive skillset, I believe I could be a valuable addition to your team as a Product Analyst. I hope this report showcases not only my analytical skills and attention to detail but also my keen interest in Fam and the FinTech industry.
 
 For an enjoyable review experience, I've also curated a playlist featuring a blend of instrumental, energetic pop, and calming tunes. I hope it serves as a pleasant accompaniment as you explore this report.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4jX8JoJMZa4IIQF1jA60kS?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4jX8JoJMZa4IIQF1jA60kS?utm_source=generator&theme=0" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 I'm kidding lol, [here](https://open.spotify.com/playlist/1Wjs7t4zdfJ2JjPX4ENpu9?si=1af8407e896a48e1) is an insane playlist that I've been listening to lately. I hope you enjoy it as much as I do.
 
 Let's proceed to delve into the details.
 
+### Table of Contents
 
-<!-- ### Table of Contents
-1. [App-Analytics](#app-analytics)
-    1.  [LogHunter (Scrapped)](#loghunter)
-    2. [Clustering](#clustering)
-    3. [FampayResponse](#fampayresponse)
-    4. [NGram](#ngram)
-    5. [RegressionAnalysis](#regressionanalysis)
-    6. [Sentiment](#sentiment)
-    7. [Social network analysis](#social-network-analysis)
-    8. [TimeSeriesAnalysis](#timeseriesanalysis)
-    9. [Topic Modeling](#topic-modeling)
-    10. [UserBehaviour](#userbehaviour)
-    11. [VersionImpactAnalysis](#versionimpactanalysis)
-2. [Competition Analysis](#competition-analysis)
-    1. [Data Extraction](#data-extraction)
-    2. [Social Network](#social-network)
-    3. [Information](#information)
-    4. [App Comp Reviews](#app-comp-reviews)
-3. [Chatbot](#chatbot)
-    1. ["FamBot" LLM Chatbot](#fambot)
-    2. [Current Chatbot](#current-chatbot)
-4. [Information](#information)
-    1. [Government Filings](#government-filings)
-    2. [App Versions](#app-versions)
-    3. [Team](#team)
-    4. [Product At Fampay](#product-at-fampay)
-    5. [PDFs](#pdfs)
-5. [Social Media Analytics](#social-media-analytics)
-    1. [Discord](#discord)
-    2. [Twitter](#twitter)
-    3. [Instagram](#instagram)
-        1. [Posts](#instagram-posts)
-        2. [Replies](#instagram-replies)
-        3. [Followers](#instagram-followers)
-    4. [YouTube](#youtube)
-6. [Website Analytics](#website-analytics)
-    1. [Page Size and Resource Analysis](#page-size)
-    2. [Link Extractor](#link-extractor)
-    3. [SEO](#seo)
-    4. [Caching and Compression](#caching-compression)
-    5. [Mobile vs Desktop Analysis](#mobile-desktop)
-    6. [Keywords](#keywords)
-    7. [Network Requests and Latency](#network-requests)
-    8. [GooglePage SpeedInsights](#googlepage-speedinsights) -->
+- [App Review Analytics](#app-analytics)
+- [Website Analysis](#website-analytics)
+- [Chatbot Analysis](#chatbot)
+- [Social Media Analysis](#social-media-analytics)
+- [Fampay Competitor Analysis](#competition-analysis)
+- [Fampay Online Presence](#information)
 
+1. **App Review Analytics**
+
+    * [Introduction](../app-review/introduction)
+    * [Data Collection](../app-review/collection)
+    * [Sentiment Analysis](../app-review/sentiment)
+    * [Clustering](../app-review/clustering)
+    * [Topic Modeling](../app-review/topicmodeling)
+    * [Time Series Analysis](../app-review/timeseries)
+    * [Fampay Response](../app-review/fampayresponse)
+    * [Ngram Analysis](../app-review/ngram)
+    * [Regression Analysis](../app-review/regression)
+    * [Social Network Analysis](../app-review/networkanalysis)
+    * [User Behaviour Analysis](../app-review/userbehaviour)
+    * [Version Impact](../app-review/versionimpact)
+
+
+1. **Website Analysis**
+
+    * [Introduction](../website-analysis/introduction)
+    * [URL Collection](../website-analysis/collection)
+    * [Cache Control](../website-analysis/cachecontrolandcontent)
+    * [Page Speed Insights](../website-analysis/pagespeedinsights)
+    * [Mobile vs Desktop Analysis](../website-analysis/mobilevsdesktop)
+    * [Network Requests and Latency](../website-analysis/networkrequests)
+    * [Page Size and Resource Analysis](../website-analysis/pagesize)
+    * [Search Engine Optimization](../website-analysis/seo)
+    * [Keywords](../website-analysis/keywords)
+
+1. **Chatbot Analysis**
+
+    * [Introduction](../chatbot/introduction)
+    * [Current Chatbot](../chatbot/currentbot)
+    * [New FamBot](../chatbot/fambot)
+
+1. **Social Media Analysis**
+
+    * [Introduction](../social-media/introduction)
+    * [Instagram Data Collection](../social-media/instagram)
+    * [Instagram Data Analysis](../social-media/instapostanalysis)
+    * [YouTube](../social-media/youtube)
+    * [LinkedIn](../social-media/linkedin)
+
+1. **Fampay Competitor Analysis**
+
+    * [Introduction](../competitor/introduction)
+    * [Direct Competition](../competitor/directcomp)
+    * [Mainstream Competition](../competitor/mainstreamcomp)
+    * [Potential Competition](../competitor/potentialcomp)
+
+1. **Fampay Online Presence**
+
+    * [Introduction](../information/introduction)
+    * [PDFs](../information/pdfs)
+    * [Government Findings](../information/governmentfindings)
+    * [APKs](../information/apks)
+    * [Team](../information/team)
 
 ### App-Analytics
 
@@ -94,7 +122,8 @@ Understanding the competitive landscape is key to strategic planning. In this se
 ### Chatbot
 
 The evolution of chatbots is revolutionizing customer service. This section explores the idea of introducing an LLM Chatbot, "FamBot", with an evaluation of its potential benefits over the current chatbot system.
-Information
+
+### Information
 This section presents the analysis of various relevant information about Fampay:
 1.	**Government Filings**: Examination of regulatory filings to understand Fampay's compliance and financial health.
 2.	**App Versions**: A study of different versions of the app and their impact on user satisfaction and engagement.

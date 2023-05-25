@@ -24,6 +24,20 @@ April 2018 – April 2020
 
 ## Experience
 
+
+<!-- Indian Institute of Technology, Delhi logo
+Research FellowResearch Fellow
+Indian Institute of Technology, Delhi · InternshipIndian Institute of Technology, Delhi · Internship
+May 2023 - Present · 1 moMay 2023 - Present · 1 mo
+Hauz Khas, Delhi, India · On-siteHauz Khas, Delhi, India · On-site
+Skills: Large Language Models (LLM) · Multimodal Analysis · Machine Learning · Python (Programming Language) · Artificial Intelligence (AI) -->
+
+**Research Fellow**  
+Indian Institute of Technology, Delhi  
+May 2023 - Present  
+Hauz Khas, Delhi
+Writing a thesis on multimoal LLMs under professor Mannan Suri. The thesis aims to explore the potential of multimodal LLMs in the field of NLP and Computer Vision and a variety of data structures.
+
 **Data Engineering Intern**  
 Sutherland Global  
 September 2022 – December 2022  

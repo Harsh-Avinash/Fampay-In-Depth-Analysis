@@ -9,6 +9,8 @@ import LeftSidebar from "../components/LeftSidebar/LeftSidebar.astro";
 import Footer from "../components/Footer/Footer.astro";
 import { GITHUB_EDIT_URL, SITE } from "../consts";
 
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
+
 type Props = CollectionEntry<"docs">["data"] & {
   headings: MarkdownHeading[];
 };
@@ -18,12 +20,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentPage = Astro.url.pathname;
 const currentFile = `src/content/docs${currentPage.replace(/\/$/, "")}.md`;
 const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
+
+
 ---
 
 <html dir={data.dir} lang={data.lang} class="initial">
   <head>
     <HeadCommon />
     <HeadSEO {...data} canonicalUrl={canonicalURL} />
+    <GoogleAnalytics />
     <title>
       {`${data.title} 🚀 ${"Harsh Avinash"}`}
     </title>

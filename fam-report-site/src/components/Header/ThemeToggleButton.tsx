@@ -38,7 +38,7 @@ const ThemeToggle: FunctionalComponent = () => {
 			return localStorage.getItem('theme');
 		}
 		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			return 'dark';
+			return 'light';
 		}
 		return 'light';
 	});

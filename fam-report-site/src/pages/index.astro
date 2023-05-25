@@ -1,19 +1,198 @@
 <script is:inline>
-  // Redirect your homepage to the first page of documentation.
-  // If you have a landing page, remove this script and add it here!
-  window.location.pathname = `/architecture/introduction`;
+  // window.location.pathname = `/architecture/introduction`;
 </script>
 
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 <body>
-  <!-- <script>
-		var password = prompt("Enter the password to access this website:");
-	  
-		// Change the password value to match your desired password
-		var correctPassword = "harshu2002";
-	  
-		if (password !== correctPassword) {
-		  // Redirect to an error page or display an error message
-		  window.location.href = "/error.html";
-		}
-	  </script>	   -->
+  <div class="container">
+      <header>
+          <img src="https://www.harshavinash.in/assets/shapes/g.svg" alt="Logo of The Fam Report", height=70px>
+          <h1 class="title">The Fam Report</h1>
+          <p class="subtitle">A comprehensive analysis of Fam's ecosystem</p>
+      </header>
+
+      <section class="about">
+        <div class="grey">The Fam Report delves deep into Fam's ecosystem, presenting a thorough analysis of critical aspects like App-Analytics, <b>Competition Analysis, Chatbot, Information, Social Media Analytics, and Website Analytics.</b> The report aims to empower the team with actionable insights to drive improved user experiences, operational efficiency, and strategic initiatives.</div>
+          <p class="subtitle"><b>by Harsh Avinash</b></p>
+          <br>
+
+          <a href="/architecture/introduction" class="cta-button">Get Started</a>
+
+      </section>
+
+      <div class="disclamier">
+        THIS LOOKS LIKE SHIT ON MOBILE. I KNOW. I'M WORKING ON IT.
+        <br><br>
+        PLEASE JUST USE A PC OR LANDSCAPE
+      </div>
+  </div>
 </body>
+
+<style>
+:root {
+  --font-fallback: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  --font-body: system-ui, var(--font-fallback);
+  --font-mono: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+}
+
+.disclamier {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: red;
+
+  padding: 30px;
+  margin-top: 50px;
+
+  border-radius: 15px;
+  display: none;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #fff;
+  color: #333;
+
+  font-family: var(--font-body);
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grey {
+  /* background-color: #f5f5f5; */
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 25px;
+
+  align-items: justify;
+
+  text-align: justify;
+  
+  color: #838689;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 3em;
+  color: #444;
+
+  font-weight: 800;
+
+  margin: 0px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #838689;
+  
+  font-weight: 500;
+
+  margin: 0px;
+}
+
+.about {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00b35f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #00a055;
+}
+
+section {
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+
+  border-width: 1px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .disclamier {
+    display: block;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  header {
+    padding-bottom: 30px;
+  }
+
+  .title {
+    font-size: 2.5em;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+
+  .grey {
+    padding: 25px;
+    line-height: 1.5;
+  }
+
+  .about {
+    padding: 25px;
+  }
+
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 2em;
+    display: none;
+  }
+
+  section {
+    padding: 0px;
+    border-radius: 15px;
+  }
+
+  .container {
+    margin: 0px;
+  }
+}
+
+
+</style>
