@@ -1,19 +1,25 @@
-<script is:inline>
-  // window.location.pathname = `/architecture/introduction`;
-</script>
-
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>The Fam Report by Harsh Avinash</title>
+  <link
+    rel="shortcut icon"
+    href="https://www.harshavinash.in/assets/shapes/g.svg"
+    type="image/x-icon"
+  />
 </head>
-<!-- add a favicon -->
-<link
-  rel="shortcut icon"
-  href="https://www.harshavinash.in/assets/shapes/g.svg"
-  type="image/x-icon"
-/>
 <body>
+  <div id="overlay">
+    <div id="overlay-text-container">
+        <div class="overlay-text">1 Million + Active Users</div>
+        <div class="overlay-text">$1 Billion + in Transaction Volume</div>
+        <div class="overlay-text">500+ Employees</div>
+        <div class="overlay-text">One company</div>
+    </div>
+</div>
+
+
+  <div id="flash-overlay"></div>
   <div class="container">
     <header>
       <img
@@ -34,26 +40,259 @@
           and Website Analytics.</b
         > The report aims to empower the team with actionable insights to drive improved
         user experiences, operational efficiency, and strategic initiatives.
+        <br />
+        
+        
       </div>
-
+      <b>🎧 Use headphones for the best experience</b>
+      <br />
+      <br />
       <a href="/architecture/introduction" class="cta-button">Get Started</a>
       <br />
       <br />
 
       Made with 💚 by Harsh Avinash
     </section>
-
+    <audio id="myAudio" src="/clip.mp3"></audio>
     <div class="disclamier">
-      THIS LOOKS LIKE SHIT ON MOBILE. 
-      <br>
-      I KNOW. I'M WORKING ON IT.
+      THIS LOOKS PREETY BAD ON MOBILE TRUST ME.
+      <br />
+      I'M WORKING ON IT LOL.
       <br /><br />
-      PLEASE JUST USE A PC OR LANDSCAPE
+      PLEASE USE A PC OR VIEW IN LANDSCAPE MODE.
     </div>
   </div>
+  
+
 </body>
 
+<script>
+  const overlayTextElements = Array.from(document.querySelectorAll(".overlay-text"));
+  var container = document.querySelector(".container");
+
+  document.querySelector(".cta-button").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const audio = document.getElementById("myAudio");
+  audio.play();
+
+  const overlay = document.getElementById("overlay");
+  const flashOverlay = document.getElementById("flash-overlay");
+  const overlayTextElements = document.querySelectorAll(".overlay-text"); // Assuming this is the correct selector
+  const container = document.querySelector(".container"); // Assuming this is the correct selector
+
+  function handleTimeouts(events) {
+    let cumulativeTime = 0;
+
+    events.forEach((event) => {
+      cumulativeTime += event.duration;
+
+      setTimeout(event.action, cumulativeTime);
+    });
+  }
+
+  const events = [
+    {
+      action: () => overlay.classList.add("show"),
+      duration: 0,
+    },
+    {
+      action: () => {
+        overlayTextElements.forEach((element, index) => {
+          setTimeout(() => {
+            element.style.opacity = "1";
+          }, (index + 1) * 1000);
+        });
+      },
+      duration: 1000,
+    },
+    {
+      action: () => {
+        overlayTextElements.forEach((element) => {
+          element.style.opacity = "0";
+        });
+      },
+      duration: 5000,
+    },
+    {
+      action: () => {
+        container.style.display = "none";
+      },
+      duration: 1000,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "1";
+        flashOverlay.style.visibility = "visible";
+      },
+      duration: 0,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "0";
+        flashOverlay.style.visibility = "hidden";
+      },
+      duration: 500,
+    },
+    {
+      action: () => {
+        overlay.innerHTML = "<h1 style='font-size:6em;'>The Fam Report</h1>";
+        overlay.style.opacity = "1";
+      },
+      duration: 300,
+    },
+    {
+      action: () => {
+        overlay.style.opacity = "0";
+      },
+      duration: 2000,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "1";
+      },
+      duration: 500,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "0";
+      },
+      duration: 500,
+    },
+    {
+      action: () => {
+        overlay.innerHTML = "<h1>Made with 💚 by Harsh Avinash</h1>";
+        overlay.style.opacity = "1";
+      },
+      duration: 500,
+    },
+    {
+      action: () => {
+        overlay.style.opacity = "0";
+      },
+      duration: 1800,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "1";
+      },
+      duration: 100,
+    },
+    {
+      action: () => {
+        flashOverlay.style.opacity = "0";
+      },
+      duration: 500,
+    },
+    {
+      action: () => {
+        window.location.href = "/architecture/introduction";
+      },
+      duration: 0,
+    },
+  ];
+
+  handleTimeouts(events);
+});
+
+</script>
+
 <style>
+  #overlay {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #flash-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden; /* Add this */
+    transition: opacity 0.5s linear, visibility 0.5s linear; /* Update this */
+  }
+
+  #overlay.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .overlay-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  #overlay-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.overlay-text {
+    font-size: 3em;
+    opacity: 0;
+    transition: opacity 1s;
+    margin: 0px 0;
+
+    /* remove the lines below */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+
+    text-align: center; /* Keep this */
+    font-weight: bold; /* Keep this */
+    color: #444; /* Keep this */
+}
+
+#overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 6em; /* Increase font size from 3em to 6em */
+    color: #444;
+}
+
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .fade {
+    animation: fadeInOut 2s ease-in-out;
+  }
   :root {
     --font-fallback: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
       Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
@@ -81,7 +320,6 @@
 
   body {
     font-family: var(--font-body);
-    background-color: #fff;
     color: #333;
 
     font-family: var(--font-body);
@@ -171,7 +409,7 @@
     border-width: 1px;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .disclamier {
       display: block;
     }
@@ -210,8 +448,8 @@
 
     .cta-button {
       padding: 15px 30px;
-      font-size: 2em;
-      display: none;
+      font-size: 1.5em;
+      /* display: none; */
     }
 
     section {
@@ -235,32 +473,32 @@
   }
 
   @keyframes slideIn {
-    from {
-      transform: translateY(-50px);
+    0% {
+      transform: translateY(-20px);
       opacity: 0;
     }
 
-    to {
+    50% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+
+    100% {
       transform: translateY(0);
       opacity: 1;
     }
   }
 
-  /* Apply animations to elements */
-
-  .container {
-    animation: fadeIn 0.7s ease-in;
+  header,
+  .about {
+    opacity: 0; /* Hide the elements initially */
   }
 
   header {
-    animation: slideIn 0.5s ease-out;
+    animation: slideIn 0.7s ease-out 0s forwards;
   }
 
   .about {
-    animation: slideIn 0.7s ease-out;
+    animation: slideIn 1s ease-out 0.5s forwards;
   }
-
-  /* .cta-button {
-  animation: slideIn 1s ease-out;
-} */
 </style>
