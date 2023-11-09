@@ -1,5 +1,7 @@
 # Fampay in Depth Analysis (The Fam Report)
 
+Avialable at [thefamreport.harshavinash.in](https://thefamreport.harshavinash.in/)
+
 Over the past month, I've committed myself to explore Fam's ecosystem, resulting in the detailed report that lies ahead of you. This process has allowed me to delve into various aspects of your operations, providing me with a profound understanding and appreciation of your work. 
 
 I've primarily focused my analysis on six key areas: 
@@ -12,14 +14,6 @@ I've primarily focused my analysis on six key areas:
 * **Website Analytics**
 
 My goal is to present findings that can foster enhanced user experiences, streamline operations, and help shape strategic decisions.
-
-For an enjoyable review experience, I've also curated a playlist featuring a blend of instrumental, energetic pop, and calming tunes. I hope it serves as a pleasant accompaniment as you explore this report.
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4jX8JoJMZa4IIQF1jA60kS?utm_source=generator&theme=0" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-I'm kidding lol, [here](https://open.spotify.com/playlist/1Wjs7t4zdfJ2JjPX4ENpu9?si=1af8407e896a48e1) is an insane playlist that I've been listening to lately. I hope you enjoy it as much as I do.
-
-Let's proceed to delve into the details.
 
 # Table of Contents
 
@@ -135,5 +129,3 @@ The website is the digital face of a company. I conduct a comprehensive analysis
 8.	**GooglePage SpeedInsights**: A tool that provides insights on website speed and suggestions for improvements.
 
 Here is a flowchart of the entire report on this [Figjam File](https://www.figma.com/file/abAQGPwpTai1uS5njcXpo8/Fam-Report-Structure?node-id=0%3A1)
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FabAQGPwpTai1uS5njcXpo8%2FFam-Report-Structure%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DBvjc70UBaZ4dEmXs-1" allowfullscreen></iframe>
